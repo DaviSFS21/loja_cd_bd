@@ -1,1 +1,1 @@
-# loja_cd_db
+# loja_cd_bd
