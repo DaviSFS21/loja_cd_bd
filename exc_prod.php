@@ -34,7 +34,7 @@
         ?>
             <!-- Aqui tem Javascript!-->
             <script>
-                alert("Categoria excluida!");
+                alert("CD excluido!");
                 window.location.replace("form_exc_prod.php");
             </script>
         <?php

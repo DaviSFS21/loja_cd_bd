@@ -7,7 +7,18 @@
     <title>Excluir categoria</title>
 </head>
 <body>
-    <h2>Pesquisar CDs</h2>
+    <h1>Pesquisar CDs</h1>
+    <header>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="form_cad_prod.html">Cadastrar</a></li>
+                <li><a href="form_alt_prod.php">Alterar</a></li>
+                <li><a href="form_exc_prod.php">Excluir</a></li>
+                <li><a href="form_pesq_prod.html">Pesquisar</a></li>
+                <li><a class="cta" href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </header>   
     <table border="1">
             <tr>
                 <td>ID do CD</td>
@@ -35,7 +46,7 @@
                     ?>
                         <!-- Aqui tem Javascript!-->
                         <script>
-                            alert("Não existe CDs cadastrados");
+                            alert("Não existem CDs cadastrados");
                             window.location.replace("index.html");
                         </script>
                     <?php
