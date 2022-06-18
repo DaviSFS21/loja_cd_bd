@@ -22,8 +22,8 @@
     <table border="1">
             <tr>
                 <td>ID do CD</td>
+                <td>Ano de lançamento</td>
                 <td>CD</td>
-                <td>Selecionar</td>
             </tr>
             <?php
 
